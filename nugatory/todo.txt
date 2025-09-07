@@ -1,0 +1,7 @@
+1. Define cipher spec: block, key, rounds, S-box, permutation, schedule
+2. Design S-box, diffusion permutation, and simple secure key schedule
+3. Implement modular Python programs for the same.
+4. Add ECB and CBC modes to API with clean interfaces 
+5. Implement PKCS7 padding, test vectors, and demo.py examples
+6. Add benchmarking utilities and Raspberry Pi guidance
+7. Optional: Dockerfile, pytest suite, and GitHub Actions CI
