@@ -85,7 +85,7 @@ Alter the message value to encrypt/decrypt in the main function your own message
 Run the demo to see example encryption/decryption on IoT-style payloads:
 
 ```bash
-python -m demo.demo
+python -m src.demo
 ```
 
 ### Run Tests

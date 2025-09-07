@@ -3,7 +3,7 @@ Simple demo of my LightCrypt cipher
 Shows basic usage with different types of data
 """
 
-from lightcrypt import LightCrypt, generate_key, bytes_to_hex
+from src.lightcrypt import LightCrypt, generate_key, bytes_to_hex
 import json
 
 def main():
