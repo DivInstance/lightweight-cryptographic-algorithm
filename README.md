@@ -1,4 +1,4 @@
-# Lightweight Cryptography Algorithm ~ LightCrypt (LCA-128)
+## Lightweight Cryptography Algorithm ~ LightCrypt (LCA-128)
 
 LightCrypt is a custom 128-bit encryption algorithm I built from scratch as my first project in learning cryptography. It's specifically designed for small, low-power devices like IoT sensors, smart home gadgets, and embedded systems that need to encrypt data but have limited processing power and battery life.
 
@@ -111,8 +111,6 @@ Results (500 iterations, ECB mode)
 ###### AES-128 (ECB):
   Encryption: 0.0034 sec (146838.82 KB/s)
   Decryption: 0.0030 sec (165573.35 KB/s)
----
-  
 
 ## Future Enhancements for LightCrypt
 
