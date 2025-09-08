@@ -4,3 +4,4 @@
 /src/__pycache__
 /test/__pycache__
 .DS_Store
+__pycache__
