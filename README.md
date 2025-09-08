@@ -76,6 +76,17 @@ pip install -r requirements.txt
 ### Run Encryption/Decryption
 From the project root directory:
 
+### Encrypt and Decrypt message
+```bash
+python -m encrypt  
+```
+
+```bash
+python -m decrypt 
+```
+
+### Lightcrypt Module 
+
 ```bash
 python -m src.lightcrypt
 ```
