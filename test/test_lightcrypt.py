@@ -43,3 +43,14 @@ def test_wrong_key():
     with pytest.raises(AssertionError) as e:
         decrypted = cipher2.decrypt(encrypted)
         assert decrypted == msg
+
+def test_empty_message():
+    """Test encryption and decryption of an empty message"""
+    key = b"TestKey123456789"
+    cipher = LightCrypt(key)
+
+    msg = b""
+    encrypted = cipher.encrypt(msg)
+    decrypted = cipher.decrypt(encrypted)
+
+    assert decrypted == msg
